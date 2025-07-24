@@ -1,4 +1,5 @@
-DreamSpace AI: Virtual Interior Design Stylist 🛋️✨
+# DreamSpace AI: Virtual Interior Design Stylist 🛋️✨
+
 DreamSpace AI is a mobile application that allows users to take a picture of their room and instantly redecorate it in various interior design styles using AI. Users can also tap on generated items to find and shop for similar products online.
 
 This repository contains the complete source code for the Flutter frontend and the Python (Flask) backend.
