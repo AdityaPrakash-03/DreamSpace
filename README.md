@@ -63,33 +63,3 @@ pip install Flask Pillow
 python app.py
 The server will start on http://0.0.0.0:5000
 
-2. Frontend Setup (Flutter)
-Now set up the mobile application:
-
-bash
-Copy
-Edit
-# Navigate to the frontend directory
-cd dreamspace_ai
-
-# Get all Flutter dependencies
-flutter pub get
-🔧 Configure the Backend IP
-Open lib/providers/app_provider.dart and update the _backendUrl variable with your computer’s local IP address.
-
-dart
-Copy
-Edit
-// Example
-final String _backendUrl = "http://192.168.x.x:5000";
-bash
-Copy
-Edit
-# Run the app on an emulator or connected device
-flutter run
-📂 Project Structure
-bash
-Copy
-Edit
-dreamspace_ai/           # Flutter Frontend
-dreamspace_backend/      # Python Flask Backend
